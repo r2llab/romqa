@@ -19,7 +19,7 @@ If you find this helpful, please cite:
 
 Due to legal reasons, Meta cannot host reproduced Wikidata.
 We include scripts to reproduce RoMQA data from annotations, Wikidata, and T-REx in the `dataset_construction` directory.
-Alternatively, you can [download data from a third party](https://s3.us-west-1.wasabisys.com/vzhong-public/RoMQA/romqa_data.zip), which has been produced using scripts from this directory.
+Alternatively, you can [download data from a third party](https://drive.r2llab.com/r2l-public/RoMQA/romqa_data.zip), which has been produced using scripts from this directory.
 Once you have downloaded the data `romqa_data.zip`, unzip it `unzip romqa_data.zip` from the root folder to place data files in `./data`.
 The experiment code assumes that `./data` contains the correct data files.
 If you decide to produce data yourself, then you should manually place splits in the `data/{open,closed,gold}` directories.
